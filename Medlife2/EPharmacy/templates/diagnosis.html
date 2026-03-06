@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+{% block title %}Diagnosis{% endblock %}
+<!-- {% block css %}{{url_for('static', filename='dignosisstyle.css')}}{% endblock %} -->
+{% block Diagnosis_active %}active{% endblock %}
+{% block body %}
+ 
+ 
+
+
+<div class="container" style="max-width: 800px; margin: 0 auto; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    <h1 style="text-align: center; font-size: 24px;">Diagnosis</h1>
+    <!-- <form action=""> -->
+        <form action="/Diagnosis_Search" method="GET">
+        <select name="speciality" id="speciality" style="width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 5px;">
+            <option value="">Specialty By Doctor</option>
+            <option value="Cardiologist">Cardiology</option>
+            <option value="Dentistry">Dentistry</option>
+            <option value="Dermatology">Dermatology</option>
+            <option value="Diabetology">Diabetology</option>
+            <!-- Add more options -->
+        </select>
+    <!-- </form>
+    <form action=""> -->
+        <input type="text" name="name" id="name" placeholder="Type Doctor Name" style="width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 5px;">
+    <!-- </form> -->
+    <!-- <form action="">
+        <select name="speciality" id="speciality" style="width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 5px;">
+            <option value="">Appointment</option>
+            <option value="cardiology">Online</option>
+            <option value="dentistry">Offline</option>-->
+            <!-- Add more options -->
+        <!-- </select>
+    </form> 
+    <form action="">
+        <input type="date" name="date" id="date" style="width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 5px;">
+    </form> -->
+    <!-- <form action="/Diagnosis_Search"> -->
+        <select name="availability" id="availability" style="width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 5px;">
+            <option value="">Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <!-- Add more options -->
+        </select>
+        <button type="submit" style="background-color: #007bff; color: #fff; cursor: pointer;">Search</button>
+    </form>
+</div>
+
+
+ {% endblock %}
+
+
+ 
+
+
+ 
+ 
+
+
+
+
+ 

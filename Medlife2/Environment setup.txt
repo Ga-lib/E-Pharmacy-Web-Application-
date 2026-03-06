@@ -1,0 +1,49 @@
+CMD setup
+
+1. python 3.11
+2. check version cmd  - python --version
+(Python 3.11.5)
+
+check pip version (cmd)-pip --version
+
+ next 
+cmd -> 
+(Administrator cmd)pip install flask
+(Administrator cmd)->pip install google_auth_oauthlib
+
+then 
+
+vs code r bitor 
+pip freeze > requirements.txt
+pip freeze
+pip install -r requirements.txt
+
+then 
+(Administrator cmd) 
+
+pip install flask-sqlalchemy
+pip install MYSQL
+pip install flask-mysqldb
+
+then
+pip install sslcommerz-lib
+
+
+
+#How to run?
+Go to Xaamp 
+Create a databasename
+Now go to app.py 
+Then open terminal 
+Delete the terminal 
+Run the app.py 
+
+
+
+
+
+
+
+
+
+
