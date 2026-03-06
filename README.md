@@ -58,6 +58,7 @@ Update the SQLALCHEMY_DATABASE_URI in app.py with your credentials.
 5. Run the App: python app.py
 
 <img width="1917" height="928" alt="image_2023-10-22_02-07-52" src="https://github.com/user-attachments/assets/d3f3659f-f5fb-442a-93a0-9c256b37a9b8" />
+<img width="421" height="708" alt="image" src="https://github.com/user-attachments/assets/bbdb05fe-9c82-48bf-a524-6970fd7c2523" />
 
 
 
