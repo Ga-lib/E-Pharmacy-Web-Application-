@@ -1,4 +1,4 @@
-💊 MedLife: E-Pharmacy Web Application
+## E-Pharmacy Full-Stack Web Application
 MedLife is a comprehensive full-stack E-Pharmacy platform designed to streamline medicine procurement and healthcare management. Beyond standard e-commerce features, it includes a doctor appointment system and utilizes professional software design patterns to ensure scalability and clean code.
 
 🚀 Key Features
